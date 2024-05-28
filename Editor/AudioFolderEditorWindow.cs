@@ -799,6 +799,22 @@ namespace Revamp.AudioTools.FolderCreator
         }
 
         private void OpenLicensePDF()
+    {
+        string fullPdfPath = Path.GetFullPath(pdfPath);
+        string url = "file:///" + fullPdfPath.Replace("\\", "/");
+
+        if (System.IO.File.Exists(fullPdfPath))
+        {
+            Application.OpenURL(url);
+            Debug.Log("Opening: " + url);
+        }
+        else
+        {
+            Debug.LogError("File not found: " + fullPdfPath);
+        }
+    }
+
+/*         private void OpenLicensePDF()
         {
             if (System.IO.File.Exists(pdfPath))
             {
@@ -809,7 +825,7 @@ namespace Revamp.AudioTools.FolderCreator
             {
                 Debug.LogError("File not found: " + pdfPath);
             }
-        }
+        } */
 
     #endregion
 
