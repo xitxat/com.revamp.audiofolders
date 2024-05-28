@@ -35,8 +35,8 @@ Unity 2021.1 or higher + Internet connection for downloading the package
 Go to Window -> Package Manager -> Search Unity Register : Revamp Audio Folders  
 or  
 Click on the + button and select Install package from git URL  
-Add: 
-
+Add:   
+https://github.com/xitxat/com.revamp.audiofolders.git
 
 ## Usage Guide  
 ### Accessing the Tool
