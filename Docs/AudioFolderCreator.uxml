@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
-<Style src="/AudioMaster.uss" />
+<Style src="AudioMaster.uss" />
 
     <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: auto; min-height: auto; display: flex;">
         <ui:VisualElement name="samples-contain" style="display: flex; position: relative; left: auto; flex-grow: 1; visibility: visible; overflow: visible; height: auto; flex-shrink: 0;">
