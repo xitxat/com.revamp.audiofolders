@@ -13,10 +13,8 @@ namespace Revamp.AudioTools.FolderCreator
     {
         private SampleFolderConfig sampleFolderConfig;
         private CreditManager creditManager;
-        public static string baseClipFolder = "Assets/Revamp/AudioTools/FolderCreator/AudioClips";
+        public static string baseClipFolder = "Packages/com.revamp.audiofolders/AudioClips";
         private static string pdfPath =  "Packages/com.revamp.audiofolders/Docs/The License.pdf";  
-        //private static string pdfPath = Application.dataPath + "Packages/com.revamp.audiofolders/Docs/The License.pdf";  
-        //private static string fullPdfPath = "file:///" + pdfPath;
         private bool isChildTriggered = false;
         private bool isUserAction = true;
         private static string assetPath = FolderManager.SO_AssetPath;
@@ -813,21 +811,6 @@ namespace Revamp.AudioTools.FolderCreator
             Debug.LogError("File not found: " + fullPdfPath);
         }
     }
-
-/*         private void OpenLicensePDF()
-        {
-            if (System.IO.File.Exists(pdfPath))
-            {
-                Application.OpenURL(pdfPath);
-                Debug.Log("Opening: " + pdfPath);
-            }
-            else
-            {
-                Debug.LogError("File not found: " + pdfPath);
-            }
-        } */
-
-    #endregion
-
+   #endregion
     }
 }

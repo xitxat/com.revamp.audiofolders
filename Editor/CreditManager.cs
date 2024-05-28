@@ -73,7 +73,7 @@ namespace Revamp.AudioTools.FolderCreator
             {
                 sb.AppendLine($"{pair.Key}: {pair.Value}");
             }
-            Debug.Log(sb.ToString());
+           // Debug.Log(sb.ToString());
         }
 
         public void UpdateCreditTexts(VisualElement root)
