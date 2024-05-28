@@ -1,5 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
-    <Style src="Packages/com.revamp.audiofolders/Docs/AudioMaster.uss?fileID=7433441132597879392&amp;guid=ceda23631576b3645b92170fa4d88bc3&amp;type=3#AudioMaster" />
+<Style src="Packages/com.revamp.audiofolders/Docs/AudioMaster.uss" />
+
     <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: auto; min-height: auto; display: flex;">
         <ui:VisualElement name="samples-contain" style="display: flex; position: relative; left: auto; flex-grow: 1; visibility: visible; overflow: visible; height: auto; flex-shrink: 0;">
             <ui:VisualElement name="samples-info" class="pad-5 ve-divider" style="flex-grow: 0; border-bottom-width: 1px;">
