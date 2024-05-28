@@ -25,7 +25,7 @@ namespace Revamp.AudioTools.FolderCreator
 
         private void OnEnable()
         {
-            // Initialize static fields
+            AssetDatabase.Refresh();
             visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(visualTreePath);
             if (visualTree == null)
             {
