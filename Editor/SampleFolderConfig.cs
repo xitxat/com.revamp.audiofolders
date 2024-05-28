@@ -24,7 +24,7 @@ namespace Revamp.AudioTools.FolderCreator
                     }
                 }
             }
-        Debug.Log("<color=green>Dictionary built with " + clipToFolderMap.Count + " entries.</color>");
+        //Debug.Log("<color=green>Dictionary built with " + clipToFolderMap.Count + " entries.</color>");
         }
 
     }
