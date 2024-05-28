@@ -1,0 +1,14 @@
+{
+    "name": "com.revamp.audiofolders",
+    "version": "1.0.0",
+    "displayName": "Revamp Audio Folders",
+    "description": "A custom editor tool for managing audio folders.",
+    "unity": "2022.3",
+    "author": {
+      "name": "Mark Busch",
+      "email": "mark@summit.cat",
+      "url": "https://summit.cat"
+    }
+
+  }
+    

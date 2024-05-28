@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ed07b3b3cafec428a648f526f2e790, type: 3}
+  m_Name: SampleFolderConfig
+  m_EditorClassIdentifier: 
+  folders:
+  - id: 5000
+    parentId: 
+    folderName: 8-Bit
+    localizationKey: FOLDER_8-BIT
+    clips: []
+    hasChildren: 0
+  - id: 5001
+    parentId: 8-Bit
+    folderName: Birds
+    localizationKey: FOLDER_8-BIT_BIRDS
+    clips:
+    - {fileID: 8300000, guid: e24e5df563240a44a8728ac507d8e7ef, type: 3}
+    hasChildren: 0
+  - id: 5002
+    parentId: 8-Bit
+    folderName: Collect
+    localizationKey: FOLDER_8-BIT_COLLECT
+    clips:
+    - {fileID: 8300000, guid: a99080190a08cd94c9c6d45c633da7b3, type: 3}
+    hasChildren: 0
+  - id: 5003
+    parentId: 8-Bit
+    folderName: Big Explosion
+    localizationKey: FOLDER_8-BIT_EXPLOSION
+    clips:
+    - {fileID: 8300000, guid: 62028229fc262f34a854a8d792a3d653, type: 3}
+    hasChildren: 0
+  - id: 5004
+    parentId: 8-Bit
+    folderName: Life
+    localizationKey: FOLDER_8-BIT_LIFE
+    clips:
+    - {fileID: 8300000, guid: 3fcc6834cfda6ed40bde2151184ae086, type: 3}
+    hasChildren: 0
+  - id: 5005
+    parentId: 8-Bit
+    folderName: Spell
+    localizationKey: FOLDER_8-BIT_SPELL
+    clips:
+    - {fileID: 8300000, guid: 6e0d232394019b74eb6d8db0f22ad123, type: 3}
+    hasChildren: 0
+  - id: 5006
+    parentId: 8-Bit
+    folderName: Pick up
+    localizationKey: FOLDER_8-BIT_PICK_UP
+    clips:
+    - {fileID: 8300000, guid: 9d3652d395a5795408aaea85638a54e5, type: 3}
+    hasChildren: 0
+  - id: 5007
+    parentId: 8-Bit
+    folderName: Power up
+    localizationKey: FOLDER_8-BIT_POWER_UP
+    clips:
+    - {fileID: 8300000, guid: 9d3652d395a5795408aaea85638a54e5, type: 3}
+    hasChildren: 0
+  - id: 5008
+    parentId: 8-Bit
+    folderName: Teleport
+    localizationKey: FOLDER_8-BIT_TELEPORT
+    clips:
+    - {fileID: 8300000, guid: 63833630dedb4db4694112b33695d45d, type: 3}
+    hasChildren: 0
+  - id: 5009
+    parentId: 
+    folderName: Destruction
+    localizationKey: FOLDER_DESTRUCTION
+    clips: []
+    hasChildren: 0
+  - id: 5010
+    parentId: Destruction
+    folderName: Stone Fall
+    localizationKey: FOLDER_STONEFALL
+    clips:
+    - {fileID: 8300000, guid: 084954c3125a6c14a8e1c9b77d071091, type: 3}
+    hasChildren: 0
+  - id: 5011
+    parentId: 
+    folderName: Electro Magnetic
+    localizationKey: FOLDER_ELECTRO_MAGNETIC
+    clips: []
+    hasChildren: 0
+  - id: 5012
+    parentId: Electro Magnetic
+    folderName: Cable
+    localizationKey: FOLDER_ELECTRO_CABLE
+    clips:
+    - {fileID: 8300000, guid: e431f00dea97e7d4cb210c15dac8eb79, type: 3}
+    hasChildren: 0
+  - id: 5013
+    parentId: Electro Magnetic
+    folderName: Data Corruption
+    localizationKey: FOLDER_ELECTRO_DATA
+    clips:
+    - {fileID: 8300000, guid: 96fc22b843f90394aab8990aaceeb7fa, type: 3}
+    hasChildren: 0
+  - id: 5014
+    parentId: Electro Magnetic
+    folderName: Electro Static
+    localizationKey: FOLDER_ELECTRO_STATIC
+    clips:
+    - {fileID: 8300000, guid: 8d610c6b2a34d2447bb971399378e82c, type: 3}
+    hasChildren: 0
+  - id: 5015
+    parentId: Electro Magnetic
+    folderName: Transmit
+    localizationKey: FOLDER_ELECTRO_TRANSMIT
+    clips:
+    - {fileID: 8300000, guid: 82bce5c63c9197847a5cdc6b2a292fad, type: 3}
+    hasChildren: 0
+  - id: 5016
+    parentId: Electro Magnetic
+    folderName: Whoosh_E
+    localizationKey: FOLDER_ELECTRO_WHOOSH
+    clips:
+    - {fileID: 8300000, guid: 9536657c6cb2eff4cb0ec84bf910ce02, type: 3}
+    hasChildren: 0
+  - id: 5017
+    parentId: 
+    folderName: Environment
+    localizationKey: FOLDER_ENVIRONMENT
+    clips: []
+    hasChildren: 0
+  - id: 5018
+    parentId: Environment
+    folderName: Rain
+    localizationKey: FOLDER_RAIN
+    clips:
+    - {fileID: 8300000, guid: 318d91d2f8faf2f4ca05b6e1d0c6d2d6, type: 3}
+    hasChildren: 0
+  - id: 5019
+    parentId: Environment
+    folderName: River
+    localizationKey: FOLDER_RIVER
+    clips:
+    - {fileID: 8300000, guid: 17b992abed8c8764ba528e9cfc9b4284, type: 3}
+    hasChildren: 0
+  - id: 5020
+    parentId: Environment
+    folderName: Thunder
+    localizationKey: FOLDER_THUNDER
+    clips:
+    - {fileID: 8300000, guid: 592b970e15504ec4ab16c3cc00ce3395, type: 3}
+    hasChildren: 0
+  - id: 5021
+    parentId: 
+    folderName: Explosions
+    localizationKey: FOLDER_EXPLOSIONS
+    clips: []
+    hasChildren: 0
+  - id: 5022
+    parentId: Explosions
+    folderName: Mortar
+    localizationKey: FOLDER_MORTAR
+    clips:
+    - {fileID: 8300000, guid: f7f9d76c8469df147bba713db2314a2a, type: 3}
+    hasChildren: 0
+  - id: 5023
+    parentId: Explosions
+    folderName: Rumble
+    localizationKey: FOLDER_RUMBLE
+    clips:
+    - {fileID: 8300000, guid: 922950eed4879a14a839456439a04425, type: 3}
+    hasChildren: 0
+  - id: 5024
+    parentId: Explosions
+    folderName: Urban
+    localizationKey: FOLDER_URBAN
+    clips:
+    - {fileID: 8300000, guid: 53e19a5df5c693947b3b35586ddae9d9, type: 3}
+    hasChildren: 0
+  - id: 5025
+    parentId: Explosions
+    folderName: Water
+    localizationKey: FOLDER_EXPL_WATER
+    clips:
+    - {fileID: 8300000, guid: b18353b05f39d084893e147a8a6a0e98, type: 3}
+    hasChildren: 0
+  - id: 5026
+    parentId: 
+    folderName: Footsteps
+    localizationKey: FOLDER_FOOTSTEPS
+    clips: []
+    hasChildren: 0
+  - id: 5027
+    parentId: Footsteps
+    folderName: Grass
+    localizationKey: FOLDER_FOOTSTEPS_GRASS
+    clips:
+    - {fileID: 8300000, guid: 70a4af01be247084e8d343b1c514912f, type: 3}
+    hasChildren: 0
+  - id: 5028
+    parentId: Footsteps
+    folderName: Robot
+    localizationKey: FOLDER_FOOTSTEPS_ROBOT
+    clips:
+    - {fileID: 8300000, guid: a55ce014a0180f44eac6d4edd80fabad, type: 3}
+    hasChildren: 0
+  - id: 5029
+    parentId: Footsteps
+    folderName: Snow
+    localizationKey: FOLDER_FOOTSTEPS_SNOW
+    clips:
+    - {fileID: 8300000, guid: 645b9685d19520b4e871e99803859bf2, type: 3}
+    hasChildren: 0
+  - id: 5030
+    parentId: 
+    folderName: Fx
+    localizationKey: FOLDER_FX
+    clips: []
+    hasChildren: 0
+  - id: 5031
+    parentId: Fx
+    folderName: Particles
+    localizationKey: FOLDER_PARTICLES
+    clips:
+    - {fileID: 8300000, guid: dc6af062a3bef1940a12f1aa41199853, type: 3}
+    hasChildren: 0
+  - id: 5032
+    parentId: Fx
+    folderName: Rise
+    localizationKey: FOLDER_RISE
+    clips:
+    - {fileID: 8300000, guid: 4ef7fc0571892f34c8a937422151acba, type: 3}
+    hasChildren: 0
+  - id: 5033
+    parentId: Fx
+    folderName: Scan
+    localizationKey: FOLDER_SCAN
+    clips:
+    - {fileID: 8300000, guid: eaa75c776864e9345a804717185337d3, type: 3}
+    hasChildren: 0
+  - id: 5034
+    parentId: Fx
+    folderName: Sizzle
+    localizationKey: FOLDER_SIZZLE
+    clips:
+    - {fileID: 8300000, guid: a1c1d0164361e9a4fb8795aa7c55c1ea, type: 3}
+    hasChildren: 0
+  - id: 5035
+    parentId: Fx
+    folderName: Spells
+    localizationKey: FOLDER_SPELLS
+    clips:
+    - {fileID: 8300000, guid: 2925e4ab40cde7b429d27b3ca7914b25, type: 3}
+    hasChildren: 0
+  - id: 5036
+    parentId: Fx
+    folderName: Whoosh
+    localizationKey: FOLDER_WHOOSH
+    clips:
+    - {fileID: 8300000, guid: 9536657c6cb2eff4cb0ec84bf910ce02, type: 3}
+    hasChildren: 0
+  - id: 5037
+    parentId: 
+    folderName: Impacts
+    localizationKey: FOLDER_IMPACTS
+    clips: []
+    hasChildren: 0
+  - id: 5038
+    parentId: Impacts
+    folderName: Ice
+    localizationKey: FOLDER_IMPACTS_ICE
+    clips:
+    - {fileID: 8300000, guid: 0b502b8619827ba48834c66b84914d9f, type: 3}
+    hasChildren: 0
+  - id: 5039
+    parentId: Impacts
+    folderName: Lazer
+    localizationKey: FOLDER_IMPACTS_LAZER
+    clips:
+    - {fileID: 8300000, guid: e226253c947828449981c705789961ac, type: 3}
+    hasChildren: 0
+  - id: 5040
+    parentId: 
+    folderName: Music
+    localizationKey: FOLDER_MUSIC
+    clips: []
+    hasChildren: 0
+  - id: 5041
+    parentId: Music
+    folderName: Jungle
+    localizationKey: FOLDER_JUNGLE
+    clips:
+    - {fileID: 8300000, guid: b6cdbbb95fd8a4545b0e951590c34ec8, type: 3}
+    hasChildren: 0
+  - id: 5042
+    parentId: Music
+    folderName: Tense
+    localizationKey: FOLDER_TENSE
+    clips:
+    - {fileID: 8300000, guid: 1b719a48ebe95164487be53fad1ac411, type: 3}
+    hasChildren: 0
+  - id: 5043
+    parentId: 
+    folderName: Temp
+    localizationKey: FOLDER_TEMP
+    clips:
+    - {fileID: 8300000, guid: bbbece301df3c8d479398614db37b9d1, type: 3}
+    - {fileID: 8300000, guid: 435cbc7bdd9dd2c498363cbedad3fc69, type: 3}
+    - {fileID: 8300000, guid: a3cdbb5272a669c4cb473a1276e60223, type: 3}
+    - {fileID: 8300000, guid: 2b2f269155aa8634aa1844254b61913f, type: 3}
+    - {fileID: 8300000, guid: f2497e96d1db56e44acb5d00540fcd98, type: 3}
+    - {fileID: 8300000, guid: 8b5b2b007d7123046938bf76fcb8bec4, type: 3}
+    - {fileID: 8300000, guid: 4bb60c67af9280d42a8c0b952d594f02, type: 3}
+    - {fileID: 8300000, guid: 5bbcf40e113866f4b84b68d758435aac, type: 3}
+    - {fileID: 8300000, guid: 779dd3af9217e2e44a998d313bdcb393, type: 3}
+    - {fileID: 8300000, guid: c8fec28b4b9388642bdf6e2b80f26a8c, type: 3}
+    - {fileID: 8300000, guid: 9fd834c6066420349917dfffbe758bdf, type: 3}
+    - {fileID: 8300000, guid: 5a7d327011c8e4a4682a3b16ba53038f, type: 3}
+    hasChildren: 0
+  - id: 5044
+    parentId: Temp
+    folderName: Mono
+    localizationKey: FOLDER_MONO
+    clips:
+    - {fileID: 8300000, guid: ae23f8436df51254a8192ac2dd145200, type: 3}
+    hasChildren: 0
+  - id: 5045
+    parentId: Temp
+    folderName: Stereo
+    localizationKey: FOLDER_STEREO
+    clips:
+    - {fileID: 8300000, guid: ccac0fb95ee683144989369329d5a5e0, type: 3}
+    hasChildren: 0
+  - id: 5046
+    parentId: 
+    folderName: Ui
+    localizationKey: FOLDER_UI
+    clips: []
+    hasChildren: 0
+  - id: 5047
+    parentId: Ui
+    folderName: Clicks
+    localizationKey: FOLDER_CLICKS
+    clips:
+    - {fileID: 8300000, guid: c2971b83fb2576e4bb515ee702c6722b, type: 3}
+    hasChildren: 0
+  - id: 5048
+    parentId: Ui
+    folderName: Cyber
+    localizationKey: FOLDER_UI_CYBER
+    clips:
+    - {fileID: 8300000, guid: 3c2f53456fce24f4da75a7fd1baaf170, type: 3}
+    hasChildren: 0
+  - id: 5049
+    parentId: Ui
+    folderName: Depress
+    localizationKey: FOLDER_DEPRESS
+    clips:
+    - {fileID: 8300000, guid: cf8036dc32929554693a9b38f561d003, type: 3}
+    hasChildren: 0
+  - id: 5050
+    parentId: 
+    folderName: Vehicles
+    localizationKey: FOLDER_VEHICLES
+    clips: []
+    hasChildren: 0
+  - id: 5051
+    parentId: Vehicles
+    folderName: Engines
+    localizationKey: FOLDER_ENGINES
+    clips:
+    - {fileID: 8300000, guid: 42db629b10d99a6408cc20f307e546df, type: 3}
+    hasChildren: 0
+  - id: 5052
+    parentId: 
+    folderName: Voices
+    localizationKey: FOLDER_VOICES
+    clips: []
+    hasChildren: 0
+  - id: 5053
+    parentId: Voices
+    folderName: Screams
+    localizationKey: FOLDER_SCREAMS
+    clips:
+    - {fileID: 8300000, guid: 811d1f2ab9a9c8c42a47643ce336cc4a, type: 3}
+    hasChildren: 0
+  - id: 5054
+    parentId: Voices
+    folderName: Zombie
+    localizationKey: FOLDER_ZOMBIE
+    clips:
+    - {fileID: 8300000, guid: 6b46d6bfe3ee6a8408e6fcc1be651dd5, type: 3}
+    hasChildren: 0
+  - id: 5055
+    parentId: 
+    folderName: Weapons
+    localizationKey: FOLDER_WEAPONS
+    clips: []
+    hasChildren: 0
+  - id: 5056
+    parentId: Weapons
+    folderName: Auto
+    localizationKey: FOLDER_AUTO
+    clips:
+    - {fileID: 8300000, guid: 5c2f6965e0cd7aa4fa28ec4941dbbc01, type: 3}
+    hasChildren: 0
+  - id: 5057
+    parentId: Weapons
+    folderName: Beam
+    localizationKey: FOLDER_BEAM
+    clips:
+    - {fileID: 8300000, guid: 2cfe76ee807b0114193e0b45ff41c5ad, type: 3}
+    hasChildren: 0
+  - id: 5058
+    parentId: Weapons
+    folderName: Guns
+    localizationKey: FOLDER_GUNS
+    clips:
+    - {fileID: 8300000, guid: 6d9a53a3b66d4104bba8a65282c61359, type: 3}
+    hasChildren: 0
+  - id: 5059
+    parentId: Weapons
+    folderName: Gun Sci Fi
+    localizationKey: FOLDER_GUNSCIFI
+    clips:
+    - {fileID: 8300000, guid: 29e497f07a3c9414ba51ab37d811d132, type: 3}
+    hasChildren: 0
+  - id: 5060
+    parentId: Weapons
+    folderName: Grenade Launcher
+    localizationKey: FOLDER_GRENADELAUNCHER
+    clips:
+    - {fileID: 8300000, guid: bdfa1de50caeeec4f81054d3d62fea5f, type: 3}
+    hasChildren: 0
+  - id: 5061
+    parentId: Weapons
+    folderName: Laser Gun
+    localizationKey: FOLDER_HAND_LASER_GUN
+    clips:
+    - {fileID: 8300000, guid: 7d82db5a87d5bb44fa989b118ce132c5, type: 3}
+    hasChildren: 0
+  - id: 5062
+    parentId: Weapons
+    folderName: Laser Rocket
+    localizationKey: FOLDER_HAND_LASER_ROCKET
+    clips:
+    - {fileID: 8300000, guid: be171988f3f652b45ae9ad5b04759531, type: 3}
+    hasChildren: 0
+  - id: 5063
+    parentId: Weapons
+    folderName: Swish
+    localizationKey: FOLDER_SWISH
+    clips:
+    - {fileID: 8300000, guid: 2c8ab5abf4f70ab468d0bd24fe92ffa9, type: 3}
+    hasChildren: 0
+  - id: 5064
+    parentId: Weapons
+    folderName: Sword
+    localizationKey: FOLDER_SWORD
+    clips:
+    - {fileID: 8300000, guid: 5b42bdaa13869db43b1b8bac0521de40, type: 3}
+    hasChildren: 0

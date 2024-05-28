@@ -1,0 +1,141 @@
+.border-root {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(255, 160, 0);
+    border-right-color: rgb(255, 160, 0);
+    border-top-color: rgb(255, 160, 0);
+    border-bottom-color: rgb(255, 160, 0);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-shrink: 0;
+}
+
+.ve-divider {
+    border-left-color: rgb(49, 49, 65);
+    border-right-color: rgb(49, 49, 65);
+    border-top-color: rgb(49, 49, 65);
+    border-bottom-color: rgb(49, 49, 65);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 5px;
+}
+
+.foldout {
+    margin-left: 10px;
+}
+
+.foldout-VE-children {
+    flex-direction: column;
+}
+
+.Orange {
+    border-bottom-width: 0;
+    color: rgb(255, 160, 0);
+}
+
+.Apricot {
+    color: rgb(255, 228, 177);
+}
+
+.foldout-VE-parent {
+}
+
+.pad-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-grow: 1;
+}
+
+.toggle-style {
+}
+
+.object-field-style {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.horizontal-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.font-reg {
+    -unity-font-definition: initial;
+    font-size: 13px;
+}
+
+.font-label {
+    -unity-font-definition: initial;
+    font-size: 13px;
+}
+
+.SDF-13 {
+    font-size: 13px;
+    -unity-font-style: normal;
+}
+
+.unity-scroll-view--vertical {
+}
+
+.pad-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+    display: none;
+}
+
+.pad-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-grow: 1;
+}
+
+.Pad-Scroll {
+    position: absolute;
+    flex-grow: 1;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+    flex-shrink: 0;
+    padding-bottom: 3200px;
+}
+
+.btn-brdr-red {
+    border-left-color: rgb(238, 73, 19);
+    border-right-color: rgb(238, 73, 19);
+    border-top-color: rgb(238, 73, 19);
+    border-bottom-color: rgb(238, 73, 19);
+}
+
+.btn-brdr-green {
+    border-left-color: rgb(19, 238, 78);
+    border-right-color: rgb(19, 238, 78);
+    border-top-color: rgb(19, 238, 78);
+    border-bottom-color: rgb(19, 238, 78);
+}
+
+.btn-txt-fade:hover {
+    color: rgba(210, 210, 210, 0.25);
+}

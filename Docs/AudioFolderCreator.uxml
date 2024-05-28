@@ -1,0 +1,52 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Revamp/AudioTools/FolderCreator/Docs/AudioMaster.uss?fileID=7433441132597879392&amp;guid=ceda23631576b3645b92170fa4d88bc3&amp;type=3#AudioMaster" />
+    <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: auto; min-height: auto; display: flex;">
+        <ui:VisualElement name="samples-contain" style="display: flex; position: relative; left: auto; flex-grow: 1; visibility: visible; overflow: visible; height: auto; flex-shrink: 0;">
+            <ui:VisualElement name="samples-info" class="pad-5 ve-divider" style="flex-grow: 0; border-bottom-width: 1px;">
+                <ui:Label tabindex="-1" text="Creation path: Assets / Audio" display-tooltip-when-elided="true" name="samples-info-path" class="ve-divider Orange" style="height: 15px; display: flex;" />
+                <ui:Label tabindex="-1" text="Data is preserved in pre-existing folders." display-tooltip-when-elided="true" name="samples-info-msg" class="Apricot" />
+            </ui:VisualElement>
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" style="flex-shrink: 0; flex-grow: 1;">
+                <ui:VisualElement name="folders-samples" class="SDF-13 Pad-Scroll" style="background-color: rgba(56, 56, 56, 0);" />
+            </ui:ScrollView>
+            <ui:VisualElement name="samples-CMD" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: auto; flex-shrink: 1; align-items: flex-end; display: flex;">
+                <ui:VisualElement name="buttons_create-samples" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: flex-start; justify-content: flex-end; flex-shrink: 1;">
+                    <ui:Button text="Select A" display-tooltip-when-elided="true" name="BTN_SELECT-ALL-SAMPLES" class="SDF-13" />
+                    <ui:Button text="Select N" display-tooltip-when-elided="true" name="BTN_SELECT-NONE-SAMPLES" class="SDF-13" />
+                </ui:VisualElement>
+                <ui:VisualElement name="buttons_details" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                    <ui:Button text="cred" display-tooltip-when-elided="true" name="BTN_CREDITS" class="SDF-13" />
+                    <ui:Button text="lice" display-tooltip-when-elided="true" name="BTN_LICENSE" class="SDF-13" />
+                </ui:VisualElement>
+                <ui:VisualElement name="buttons_exe-samples" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: flex-end; justify-content: flex-end;">
+                    <ui:VisualElement name="creator" class="SDF-13" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+                        <ui:Toggle name="toggle-create" />
+                        <ui:Button text="CREATE" display-tooltip-when-elided="true" name="BTN_CREATE-SAMPLES" class="SDF-13 btn-txt-fade" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="credits-contain" class="SDF-13" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: none; flex-shrink: 0;">
+            <ui:VisualElement name="title" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: flex-end; align-self: auto; justify-content: space-between; display: flex;">
+                <ui:Label tabindex="-1" text="Revamp Audio Folders" display-tooltip-when-elided="true" name="title" class="SDF-13" style="display: flex;" />
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="CREDIT_VERSION" />
+                <ui:Button text="X" display-tooltip-when-elided="true" name="btn_close-credits" class="SDF-13" style="-unity-font-style: bold; width: 20px; height: 20px; align-self: flex-end; align-items: auto; justify-content: flex-start; flex-direction: column; flex-shrink: 1; flex-grow: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="info" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; display: flex;">
+                <ui:Label tabindex="-1" text="devBy" display-tooltip-when-elided="true" name="CREDIT_DEVELOPED" class="SDF-13" />
+                <ui:Label tabindex="-1" text="Mark Busch" display-tooltip-when-elided="true" name="dev-name" />
+            </ui:VisualElement>
+            <ui:VisualElement name="from" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-wrap: nowrap; display: flex;">
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="CREDIT_INFO" style="margin-bottom: 10px;" />
+                <ui:Label tabindex="-1" text="Royalty Free Sound Effects Archive: &#10;&#10;GameAudioGDC" display-tooltip-when-elided="true" name="gdc" class="SDF-13" style="flex-wrap: nowrap;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="link" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-self: center; justify-content: center; display: flex;">
+                <ui:Button text=" v s" display-tooltip-when-elided="true" name="btn_url_sonniss" class="SDF-13" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="artists" class="pad-10" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: flex;">
+                <ui:Label tabindex="-1" text="arts" display-tooltip-when-elided="true" name="CREDIT_ARTISTS" class="pad-5" />
+                <ui:ListView focusable="true" name="artists" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
