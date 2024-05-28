@@ -14,12 +14,12 @@ namespace Revamp.AudioTools.FolderCreator
         private SampleFolderConfig sampleFolderConfig;
         private CreditManager creditManager;
         public static string baseClipFolder = "Assets/Revamp/AudioTools/FolderCreator/AudioClips";
-        private static string pdfPath = Application.dataPath + "/Revamp/AudioTools/FolderCreator/Docs/The License.pdf";  
+        private static string pdfPath = Application.dataPath + "Packages/com.revamp.audiofolders/Docs/The License.pdf";  
         private static string fullPdfPath = "file:///" + pdfPath;
         private bool isChildTriggered = false;
         private bool isUserAction = true;
         private static string assetPath = FolderManager.SO_AssetPath;
-        private static string visualTreePath = "Assets/Revamp/AudioTools/FolderCreator/Docs/AudioFolderCreator.uxml";
+        private static string visualTreePath = "Packages/com.revamp.audiofolders/Docs/AudioFolderCreator.uxml";
         private static VisualTreeAsset visualTree;
 
 

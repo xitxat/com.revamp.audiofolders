@@ -10,8 +10,8 @@ namespace Revamp.AudioTools.FolderCreator
     public class FolderManager
     {
 
-        public static string SO_AssetPath = "Assets/Revamp/AudioTools/FolderCreator/Editor/SampleFolderConfig.asset";
-        public static string csvPath = "Assets/Revamp/AudioTools/FolderCreator/Docs/FolderCreate.csv";
+        public static string SO_AssetPath = "Packages/com.revamp.audiofolders/Editor/SampleFolderConfig.asset";
+        public static string csvPath = "Packages/com.revamp.audiofolders/Docs/FolderCreate.csv";
         public static Dictionary<string, List<string>> FolderRelations = new Dictionary<string, List<string>>();
         public static Dictionary<string, string> ButtonTexts = new Dictionary<string, string>();
 
