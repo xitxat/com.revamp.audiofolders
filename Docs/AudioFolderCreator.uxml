@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
 <Style src="AudioMaster.uss" />
 
-    <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: auto; min-height: auto; display: flex;">
+    <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: 385px; min-height: 645px; display: flex;">
         <ui:VisualElement name="samples-contain" style="display: flex; position: relative; left: auto; flex-grow: 1; visibility: visible; overflow: visible; height: auto; flex-shrink: 0;">
             <ui:VisualElement name="samples-info" class="pad-5 ve-divider" style="flex-grow: 0; border-bottom-width: 1px;">
                 <ui:Label tabindex="-1" text="Creation path: Assets / Audio" display-tooltip-when-elided="true" name="samples-info-path" class="ve-divider Orange" style="height: 15px; display: flex;" />
