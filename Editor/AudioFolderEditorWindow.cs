@@ -87,6 +87,7 @@ namespace Revamp.AudioTools.FolderCreator
             Button createSamplesButton = rootVisualElement.Q<Button>("BTN_CREATE-SAMPLES");
             // Credits
             Button urlSonnissButton = rootVisualElement.Q<Button>("btn_url_sonniss");
+            Button urlDiscordButton = rootVisualElement.Q<Button>("btn_url_discord");
             Button creditCloseButton = rootVisualElement.Q<Button>("btn_close-credits");
             //Safety
             Toggle enableCreateToggle = rootVisualElement.Q<Toggle>("toggle-create");
@@ -118,7 +119,8 @@ namespace Revamp.AudioTools.FolderCreator
 
             licenseButton.clickable.clicked += OpenLicensePDF;
             urlSonnissButton.clickable.clicked += () => Application.OpenURL("https://sonniss.com/gameaudiogdc");
-            
+            urlDiscordButton.clickable.clicked += () => Application.OpenURL("https://discord.com");
+
             SetupToggleRelationships();
             EnsureBaseFolderExists();
         }
