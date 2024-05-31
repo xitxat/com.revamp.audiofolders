@@ -1,6 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
-<Style src="AudioMaster.uss" />
-
+    <Style src="project://database/Assets/Revamp/AudioTools/FolderCreator/Docs/AudioMaster.uss?fileID=7433441132597879392&amp;guid=ceda23631576b3645b92170fa4d88bc3&amp;type=3#AudioMaster" />
     <ui:VisualElement name="folders-root" class="border-root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 100%; max-height: none; width: 100%; max-width: none; min-width: 385px; min-height: 645px; display: flex;">
         <ui:VisualElement name="samples-contain" style="display: flex; position: relative; left: auto; flex-grow: 1; visibility: visible; overflow: visible; height: auto; flex-shrink: 0;">
             <ui:VisualElement name="samples-info" class="pad-5 ve-divider" style="flex-grow: 0; border-bottom-width: 1px;">
@@ -37,12 +36,16 @@
                 <ui:Label tabindex="-1" text="devBy" display-tooltip-when-elided="true" name="CREDIT_DEVELOPED" class="SDF-13" />
                 <ui:Label tabindex="-1" text="Mark Busch" display-tooltip-when-elided="true" name="dev-name" />
             </ui:VisualElement>
+            <ui:VisualElement name="contact" class="pad-10" style="flex-grow: 0; display: flex;">
+                <ui:Label text="  Requests, reports, enquiries:" name="enquiries" class="pad-10" />
+                <ui:Button text="Discord" name="btn_url_discord" class="SDF-13 pad-5" style="display: flex; align-items: auto; justify-content: flex-start; align-self: center;" />
+            </ui:VisualElement>
             <ui:VisualElement name="from" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-wrap: nowrap; display: flex;">
                 <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="CREDIT_INFO" style="margin-bottom: 10px;" />
                 <ui:Label tabindex="-1" text="Royalty Free Sound Effects Archive: &#10;&#10;GameAudioGDC" display-tooltip-when-elided="true" name="gdc" class="SDF-13" style="flex-wrap: nowrap;" />
             </ui:VisualElement>
             <ui:VisualElement name="link" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-self: center; justify-content: center; display: flex;">
-                <ui:Button text=" v s" display-tooltip-when-elided="true" name="btn_url_sonniss" class="SDF-13" style="display: flex;" />
+                <ui:Button text=" v s" display-tooltip-when-elided="true" name="btn_url_sonniss" class="SDF-13 pad-5" style="display: flex;" />
             </ui:VisualElement>
             <ui:VisualElement name="artists" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); display: flex; align-items: flex-start;">
                 <ui:Label tabindex="-1" text="arts" display-tooltip-when-elided="true" name="CREDIT_ARTISTS" class="pad-5" style="align-items: flex-start;" />
