@@ -4,7 +4,8 @@
 
 namespace Revamp.AudioTools.FolderCreator
 {
-    [CreateAssetMenu(fileName = "SampleFolderConfig", menuName = "Audio Tool/Sample Folder Configuration")]
+    // context menu
+    // [CreateAssetMenu(fileName = "SampleFolderConfig", menuName = "Audio Tool/Sample Folder Configuration")]
     public class SampleFolderConfig : ScriptableObject
     {
         public List<SampleFolder> folders;
@@ -33,7 +34,7 @@ namespace Revamp.AudioTools.FolderCreator
     public class SampleFolder
     {
         public int id;
-        public string parentId; // Name of the parent folder
+        public string parentId; 
         public string folderName;
         public string localizationKey;
         public List<AudioClip> clips;
