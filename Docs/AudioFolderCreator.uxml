@@ -44,8 +44,8 @@
             <ui:VisualElement name="link" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-self: center; justify-content: center; display: flex;">
                 <ui:Button text=" v s" display-tooltip-when-elided="true" name="btn_url_sonniss" class="SDF-13" style="display: flex;" />
             </ui:VisualElement>
-            <ui:VisualElement name="artists" class="pad-10" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: flex;">
-                <ui:Label tabindex="-1" text="arts" display-tooltip-when-elided="true" name="CREDIT_ARTISTS" class="pad-5" />
+            <ui:VisualElement name="artists" class="pad-10" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); display: flex; align-items: flex-start;">
+                <ui:Label tabindex="-1" text="arts" display-tooltip-when-elided="true" name="CREDIT_ARTISTS" class="pad-5" style="align-items: flex-start;" />
                 <ui:ListView focusable="true" name="artists" />
             </ui:VisualElement>
         </ui:VisualElement>
