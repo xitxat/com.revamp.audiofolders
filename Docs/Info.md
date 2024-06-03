@@ -55,4 +55,8 @@ Select desired samples and click  Create Folders button and the toggle.
 Contact  
 
 * Discord
+https://discord.gg/EqVB58DyCF  
 
+* Public links  
+https://assetstore.unity.com/packages/slug/286614  
+https://u3d.as/3iCg  

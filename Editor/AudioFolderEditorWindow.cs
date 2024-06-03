@@ -119,7 +119,7 @@ namespace Revamp.AudioTools.FolderCreator
 
             licenseButton.clickable.clicked += OpenLicensePDF;
             urlSonnissButton.clickable.clicked += () => Application.OpenURL("https://sonniss.com/gameaudiogdc");
-            urlDiscordButton.clickable.clicked += () => Application.OpenURL("https://discord.gg/rDer7vXKZb");
+            urlDiscordButton.clickable.clicked += () => Application.OpenURL("https://discord.gg/EqVB58DyCF");
 
             SetupToggleRelationships();
             EnsureBaseFolderExists();
